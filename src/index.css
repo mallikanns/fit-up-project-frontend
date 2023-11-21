@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Contained button */
+.primary-contained-button {
+  background-color: #FD00FE;
+  border-radius: 4px;
+  color: #1C1C1E;
+}
+.primary-contained-button:hover {
+  background-color: #FD33FE;
+}
+.primary-contained-button:active {
+  background-color: #FE66FE;
+}
+
+.secondary-contained-button {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: black;
+}
+.secondary-contained-button:hover {
+  background-color: #B4B5B7;
+}
+.secondary-contained-button:active {
+  background-color: #9f9f9f;
+}
+
+/* Outline button */
+.primary-outline-button {
+  background-color: rgba(253, 0, 254, 0.1);
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: 2px solid #FD00FE;
+}
+.primary-outline-button:hover {
+  background-color: rgba(253, 0, 254, 0.2);
+}
+.primary-outline-button:active {
+  background-color: rgba(253, 0, 254, 0.3);
+}
+
+/* Icon button */
+.primary-icon-button {
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: 1px solid #FFF;
+}
+.primary-icon-button:hover {
+  color: #FD33FE;
+  border: 1px solid #FD33FE;
+}
+.primary-icon-button:active {
+  background-color: rgba(253, 0, 254, 0.1);
+  color: #FD00FE;
+  border: 3px solid #FD00FE;
+}
+
+.secondary-icon-button {
+  color: #1C1C1E;
+  background-color: #FFF;
+}
+.secondary-icon-button:hover {
+  background-color: #B4B5B7;
+}
+.secondary-icon-button:active {
+  background-color: #7D7D7D;
+}
+
+/* dashed border */
+.borderdefault {
+  background-color: #fd00fe1a;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23FD00FEFF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 8px;
+}
+.bordercreate {
+  background-color: #fd00fe1a;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23FD00FEFF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 8px;
+}
+
+/* animation */
+.clickbutton:active {
+  transform: scale(0.9);
+  transition: transform 0.2s ease;
+}
+.deletedialog {
+  animation: fadeIn 0.3s ease-in-out forwards;
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.dialog-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "value": 5,
+    "time": "00:05",
+    "emoticon": "😀"
+  },
+  {
+    "value": 10,
+    "time": "00:10",
+    "emoticon": "😀"
+  },
+  {
+    "value": 15,
+    "time": "00:15",
+    "emoticon": "😀"
+  },
+  {
+    "value": 20,
+    "time": "00:20",
+    "emoticon": "😁"
+  },
+  {
+    "value": 25,
+    "time": "00:25",
+    "emoticon": "😁"
+  },
+  {
+    "value": 30,
+    "time": "00:30",
+    "emoticon": "😂"
+  },
+  {
+    "value": 35,
+    "time": "00:35",
+    "emoticon": "😂"
+  },
+  {
+    "value": 40,
+    "time": "00:40",
+    "emoticon": "😅"
+  },
+  {
+    "value": 45,
+    "time": "00:45",
+    "emoticon": "😅"
+  },
+  {
+    "value": 50,
+    "time": "00:50",
+    "emoticon": "😍"
+  },
+  {
+    "value": 55,
+    "time": "00:55",
+    "emoticon": "😍"
+  },
+  {
+    "value": 60,
+    "time": "01:00",
+    "emoticon": "🤩"
+  },
+  {
+    "value": 90,
+    "time": "01:30",
+    "emoticon": "🤩"
+  },
+  {
+    "value": 120,
+    "time": "02:00",
+    "emoticon": "😎"
+  }
+]

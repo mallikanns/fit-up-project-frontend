@@ -1,0 +1,9 @@
+circle {
+  stroke-dasharray: 551;
+  stroke-dashoffset: 551;
+}
+
+#fitcoin-bar {
+  transition: width 0.3s;
+  transition: width 0.6s ease-in-out;
+}

@@ -1,0 +1,23 @@
+      <div className="bg-pink text-white">Pink background with white text</div>
+      <div className="bg-pink-op10">Pink background with 10% opacity</div>
+      <div className="bg-blue">Blue background</div>
+      <div className="bg-black-dark">Dark black background</div>
+      <div className="bg-black-medium">Medium black background</div>
+      <div className="bg-black-light">Light black background</div>
+      <div className="bg-white">White background</div>
+      <div className="bg-white-op70">White background with 70% opacity</div>
+      <div className="bg-red">Red background</div>
+      <div className="bg-green">Green background</div>
+      <div className="bg-gray-op90">Gray background with 90% opacity</div>
+      <div className="text-gray-400">Text with gray-400 color</div>
+
+      <h1 className="font-orbitron font-bold text-6xl">Headline 1</h1>
+      <h2 className="font-orbitron font-bold text-4xl">Headline 2</h2>
+      <h3 className="font-orbitron font-bold text-2xl">Headline 3</h3>
+
+      <p className="font-roboto-mono">Body 1</p>
+      <p className="font-roboto-mono font-bold">Body 1 - HEAVY</p>
+      <p className="font-roboto-mono text-sm">Body 2</p>
+      <p className="font-roboto-mono font-bold text-sm">Body 2 - HEAVY</p>
+      <p className="font-roboto-mono text-xs">Caption 1</p>
+      <p className="font-roboto-mono font-bold text-xs">Caption 1 - HEAVY</p>

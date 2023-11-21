@@ -1,0 +1,11 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: #2C2C2E;  */
+}
+
+.input-placeholder-color::placeholder {
+  color: #7d7d7d;
+}
